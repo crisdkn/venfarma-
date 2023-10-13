@@ -5,23 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link   rel="stylesheet" href="assets/css/estilos.css">
-    </head>
-    <body>
-
-        <main>
-
-            <div class="contener__todo">
-
-                <div class="caja__trasera">
-                    <h3>¿Ya tienes cuenta?</h3>
-                    <p>Inicia sesion para entrar a la pagina</p>
-                    <button id="btn-inicar-sesion">Iniciar sesion</button>
-                </div>
-            </div>
-
-            
-
-        </main>
-
-    </body>
+    
+</head>
+<body>
+    <div class="login-container">
+        <h1>Venfarma</h1>
+        <div class="icon-container">
+            <img src="/imagenes/baseline_account_circle_black_48dp.png" alt="Ícono de usuario">
+        </div>
+        <form action="path_to_your_backend_logic" method="post">
+            <input type="email" name="correo" placeholder="Correo Electrónico" required>
+            <input type="password" name="contrasenia" placeholder="Contraseña" required>
+            <button type="submit">Iniciar sesión</button>
+        </form>
+        <a href="path_to_recovery_page">Recuperar Contraseña</a>
+    </div>
+</body>
 </html>
